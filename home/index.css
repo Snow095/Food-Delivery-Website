@@ -1,0 +1,881 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fullpage{
+    background-color: white;
+    padding: 0 50px;
+}
+.location{
+    
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    border-radius: 0 0 12px 12px;
+}
+.promo{
+    margin-left: 25px;
+}
+.promo, .regent{
+    display: flex;
+    align-items: center;
+}
+.promo img, .regent img{
+    height: 30px;
+    width: 30px;
+}
+.promo p a, .regent p a{
+    color: #FC8A06;
+}
+.basket{
+    display: flex;
+    background-color: #028643;
+    align-items: center;
+    border-radius: 0 0 12px 0;
+    
+}
+.basket p{
+    color: #FAFAFA;
+}
+.shopB, .items, .GBP, .forward{
+    padding: 10px;
+    border-left: 1px solid #FAFAFA;
+}
+.orderlogo{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    
+}
+.orderlogo img{
+    padding-right: 25px;
+}
+
+.orderlogo button{
+    font-size: 18px;
+    
+}
+.homebtn{
+    border: none;
+    background-color: #FC8A06;
+    color: #FAFAFA;
+    border-radius: 120px;
+    padding: 10px 20px;
+}
+.browsebtn, .specialbtn, .restbtn, .trackbtn{
+    border: none;
+    color: #000000;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.logbtn{
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: #03081F;
+    color: #FAFAFA;
+    border-radius: 120px;
+    padding: 10px 20px;
+}
+.logbtn button{
+    border: none;
+    background-color: #03081F;
+    color: #FAFAFA;
+    border-radius: 120px;
+}
+.landpg{
+    border-radius: 12px;
+    position: relative;
+    width:1,528px ;
+    height: 610px;
+    background-color: #FAFAFA;
+}
+.orange{
+    position: absolute;
+    width:600px ;
+    height: 565px;
+    border-radius: 282.5px 0 12px 0;
+    background-color: #FC8A06;
+    bottom: 0;
+    right: 0;
+}
+.spag-div{
+    position: absolute;
+    background-image: url("./images/spag.png");
+    width: 377px;
+    height:455px ;
+    right: 260px;
+    bottom: 0;
+}
+.eatpizza{
+    position: absolute;
+    width: 600px;
+    height: 537px;
+    bottom: 0;
+    left: 95px;
+    
+}
+.eatpizza img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 780px;
+    height: 537px;
+}
+.text1{
+    position: absolute;
+    top: 150px;
+    left: 40px;
+}
+.p1{
+    font-size: 17px;
+    line-height: 66px;
+    font-weight: 400px;
+    color: #03081F;
+}
+.h1{
+    font-size: 45px;
+    line-height: 35px;
+    font-weight: 600px;
+    color: #03081F;
+}
+.h2{
+    font-size: 45px;
+    line-height: 66px;
+    font-weight: 600px;
+    color: #FC8A06;
+}
+.p2{
+    font-size: 14px;
+    line-height: 66px;
+    font-weight: 400px;
+    color: #03081F;
+}
+.text1 form{
+    border: 1px solid #00000066;
+    border-radius: 120px;
+    width: 260px;
+    display: flex;
+    
+}
+.text1 form input{
+    background-color: transparent;
+    border: none;
+    height: 50px;
+    width: 100px;
+    
+    flex: 1;
+}
+.text1 form input::placeholder{
+    color: #00000066;
+    font-size: 14px;
+    padding-left: 10px;
+}
+.text1 form button{
+    background-color:#FC8A06;
+    color: #FAFAFA;
+    font-size: 17px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 120px;
+    
+}
+.order1{
+    position: absolute;
+    right: 90px;
+    height: 160px;
+    width: 383px;
+    top: 70px;
+}
+.orimg1{
+    padding-left: 90%;
+    margin-bottom: 0;
+}
+.receiveorder{
+    background-color: #FAFAFA;
+    padding: 10px;
+    border-radius: 12px;
+}
+.order1logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.order1logo img{
+    width: 60px;
+    height: 20px;
+}
+.receiveorder h1{
+    font-size: 18px;
+    color: #000000;
+    line-height: 100%;
+    padding-top: 10px;
+}
+.receiveorder p{
+    font-size: 18px;
+    color: #000000CC;
+    line-height: 100%;
+    padding-top: 10px;
+}
+.order2{
+    position: absolute;
+    right: 20px;
+    height: 160px;
+    width: 383px;
+    top: 220px;
+}
+.orimg2{
+    padding-left: 90%;
+    margin-bottom: 0;
+}
+.acceptorder{
+    background-color: #FAFAFA;
+    padding: 10px;
+    border-radius: 12px;
+}
+.order1logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.order1logo img{
+    width: 60px;
+    height: 20px;
+}
+.ornow{
+    display: flex;
+}
+.ornow h1{
+    font-size: 18px;
+    color: #000000;
+    line-height: 100%;
+    padding-top: 10px;
+}
+.ornow img{
+    height: 30px;
+    width: 60px;
+    padding-left: 30px;
+}
+.acceptorder p{
+    font-size: 18px;
+    color: #000000CC;
+    line-height: 100%;
+    padding-top: 10px;
+}
+.order3{
+    position: absolute;
+    right: 90px;
+    height: 160px;
+    width: 383px;
+    top: 400px;
+}
+.orimg3{
+    padding-left: 90%;
+    margin-bottom: 0;
+}
+.riderorder{
+    background-color: #FAFAFA;
+    padding: 10px;
+    border-radius: 12px;
+}
+.order1logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.order1logo img{
+    width: 60px;
+    height: 20px;
+}
+.riderorder h1{
+    font-size: 18px;
+    color: #000000;
+    line-height: 100%;
+    padding-top: 10px;
+}
+.riderorder p{
+    font-size: 18px;
+    color: #000000CC;
+    line-height: 100%;
+    padding-top: 10px;
+}
+.exclusive{
+    
+    margin-top: 25px;
+}
+.deals{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dealsh1{
+    padding-right: 50px;
+}
+.deals button{
+    font-size: 16px;
+    
+    
+}
+.pffbtn{
+    border: 1px solid #FC8A06;
+    background-color:transparent ;
+    color: #FC8A06;
+    border-radius: 120px;
+    padding: 10px 20px;
+}
+.vgbtn, .subtn, .otbtn{
+    border: none;
+    color: #000000;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 120px;
+}
+.restaurantfood{
+   
+    display: flex;
+    margin-top:25px ;
+    
+}
+.chefburgers, .aicafe{
+    background-color: white;   
+}
+.chburg{
+    background-image:
+    linear-gradient(rgba(253, 253, 253, 0.719),rgba(1, 4, 43, 0.637), rgba(1, 4, 43, 0.993)),
+    url("./images/Burger.png");
+    background-size: contain;
+    position: relative;
+    height: 300px;
+    width: 400px;
+    border-radius: 12px;
+    margin-right: 20px;  
+}
+.chtext1, .aitext1, .brottext1{
+    background-color:#03081F;
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    top: 0;
+    right: 10px;
+    padding: 10px 15px;
+    border-radius: 0 0 12px 12px;
+}
+.chtext1 h1, .aitext1 h1, .brottext1 h1{
+    text-align: center;
+    color: #FAFAFA;
+    font-size: 20px;
+}
+.chtext2, .aitext2, .brottext2{
+    background-color: transparent;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.chtext2 p, .aitext2 p, .brottext2 p{
+    color: #FC8A06;
+    font-size: 18px;
+}
+.chtext2 h2, .aitext2 h2, .brottext2 h2{
+    color: #FAFAFA;
+    font-size: 20px;
+}
+.aicaf{
+    background-image:
+    linear-gradient(rgba(253, 253, 253, 0.719),rgba(1, 4, 43, 0.637), rgba(1, 4, 43, 0.993)),
+    url("./images/AI\ cafe.png");
+    background-size: contain;
+    position: relative;
+    height: 300px;
+    width: 400px;
+    border-radius: 12px;
+    margin-right: 20px;
+}
+.butbrot{
+    background-image:
+    linear-gradient(rgba(253, 253, 253, 0.719),rgba(1, 4, 43, 0.637), rgba(1, 4, 43, 0.993)),
+    url("./images/Burger.png");
+    background-size: contain;
+    position: relative;
+    height: 300px;
+    width: 400px;
+    border-radius: 12px;
+    
+}
+.orderpopular, .popularresto{
+    margin-top: 25px;
+    
+}
+.ordercategories, .popresto{
+    margin-top: 25px;
+    
+    display: flex;
+}
+.burgfast, .salad, .pasc, .pizz, .Break, .soup{
+    border-radius: 12px;
+    background-color: #FAFAFA;
+    margin-right: 8px;
+}
+.burgfastImage{
+    
+    background-image: url("./images/Burger\ &\ fastfood.png");
+    height: 170px;
+    width: 200px;
+    background-size: contain;
+    
+}
+.burgfastText, .saladText, .pascText, .pizzText, .BreakText, .soupText{
+    background-color: #FAFAFA;
+    padding-top: 8px;
+}
+.burgfastText h2, .saladText h2, .pascText h2, .pizzText h2, .BreakText h2, .soupText h2{
+    color: #03081F;
+    font-size: 20px;
+}
+.burgfastText p, .saladText p, .pascText p, .pizzText p, .BreakText p, .soupText p{
+    color: #FC8A06;
+    font-size: 15px;
+}
+.saladImage{
+    
+    background-image: url("./images/Salad.png");
+    height: 170px;
+    width: 200px;
+    background-size: contain;  
+}
+.pascImage{
+    background-image: url("./images/Pasta.png");
+    height: 170px;
+    width: 200px;
+    background-size: contain;  
+}
+.pizzImage{
+    background-image: url("./images/Pizza.png");
+    height: 170px;
+    width: 200px;
+    background-size: contain;  
+}
+.BreakImage{
+    background-image: url("./images/Breakfast.png");
+    height: 170px;
+    width: 200px;
+    background-size: contain;  
+}
+.soupImage{
+    background-image: url("./images/Soup.png");
+    height: 170px;
+    width: 200px;
+    background-size: contain;  
+}
+.McDon, .papaJ, .KFC, .Texc, .BurgK, .Shau{
+    border-radius: 12px;
+    background-color:#FC8A06;
+    margin-right: 8px;
+}
+.McDonImage{
+    background-image: url("./images/McDonald.png");
+    height: 170px;
+    width: 200px;
+    background-size: contain; 
+}
+.McDonText h2, .papaJText h2, .KFCText h2, .TexcText h2, .BurgKText h2, .ShauText h2{
+    color: #FAFAFA;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+.papaJImage{
+    background-image: url("./images/PapaJohns.png");
+    height: 170px;
+    width: 200px;
+    background-size: contain; 
+}
+.KFCImage{
+    background-image: url("./images/KFC.png");
+    height: 170px;
+    width: 200px;
+    background-size: contain; 
+}
+.TexcImage{
+    background-image: url("./images/Texas\ Chicken.png");
+    height: 170px;
+    width: 200px;
+    background-size: contain; 
+}
+.BurgKImage{
+    background-image: url("./images/Burger\ King.png");
+    height: 170px;
+    width: 200px;
+    background-size: contain; 
+}
+.ShauImage{
+    background-image: url("./images/Shaurma\ 1.png");
+    height: 170px;
+    width: 200px;
+    background-size: contain; 
+}
+.download{
+    
+    width:1,533px ;
+    height: 661px;
+    
+}
+.downloadbg{
+    background-color: #FAFAFA;
+    margin-top: 40px;
+    border-radius: 12px;
+    position: relative;
+    width:1,528px ;
+    height: 560px;
+}
+.orderpers{
+    
+    position: absolute;
+    bottom: 0;
+    top: 100px;
+    right: 20px;
+    width:700px ;
+    height: 611px;
+}
+.ordering{
+    display: flex;
+    background-color: #FAFAFA;
+    padding-left: 100px;
+    
+}
+.ordering h2{
+    font-size: 70px;
+    color: #03081F;
+}
+.personalizes{
+    border: none;
+    background-color: #03081F;
+    font-size: 30px;
+    display: flex;
+    padding: 10px 40px;
+    border-radius: 120px;
+    justify-content: right;
+}
+.pers{
+    color: #FC8A06;
+    border-bottom: 1px solid #FC8A06;
+}
+.ins{
+    color: #FAFAFA;
+}
+.downorder{
+    background-color: #FAFAFA;
+    
+    padding-top: 30px;
+}
+.downorder p{
+    color: #03081F;
+    font-size: 18px;
+    text-align: center;
+    padding-left: 100px;
+}
+.appplay{
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+    
+}
+.appstore{
+    background-color: #000000;
+    width: 200px;
+    height:61px ;
+    margin-left: 120px;
+    margin-right: 10px;
+    border-radius: 5px;
+    align-items: center;
+    padding: 10px;
+}
+
+.smiling1{
+    position: absolute;
+    background-image: url("./images/friends-laughing-using-mobiles\ 1.png");
+    width: 700px;
+    height:570px ;
+    
+    left: 0;
+    top: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.smiling2{
+    position: absolute;
+    background-image: url("./images/friends-laughing-using-mobiles\ 2.png");
+    width: 700px;
+    height:550px ;
+    
+    left: 10px;
+    bottom: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.earnperks{
+   
+    display: flex;
+}
+.earn, .perks{
+    background-color: white;   
+}
+.earnmore{
+    background-image:
+    url("./images/Partnerwith\ us.png");
+    background-size: cover;
+    position: relative;
+    height: 300px;
+    width: 600px;
+    border-radius: 12px;
+    margin-right: 40px;  
+}
+.earnmoretext1, .perksavailtext1{
+    background-color:#FAFAFA;
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    top: 0;
+    left: 50px;
+    padding: 10px 15px;
+    border-radius: 0 0 12px 12px;
+}
+.earnmoretext1 p, .perksavailtext1 p{
+    text-align: center;
+    color:#03081F;
+    font-size: 20px;
+}
+.earnmoretext2, .perksavailtext2{
+    background-color: transparent;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.earnmoretext2 p, .perksavailtext2 p{
+    color: #FC8A06;
+    font-size: 18px;
+}
+.earnmoretext2 h2, .perksavailtext2 h2{
+    color: #FAFAFA;
+    font-size: 25px;
+}
+.earnmoretext2 button, .perksavailtext2 button{
+    border: none;
+    background-color: #FC8A06;
+    color: #FAFAFA;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 120px;
+}
+.perksavail{
+    background-image:
+    url("./images/Ride\ with\ us.png");
+    background-size: cover;
+    position: relative;
+    height: 300px;
+    width: 600px;
+    border-radius: 12px;
+    
+}
+.knowmore{
+    background-color: #D9D9D9;
+    border-radius: 12px;
+    padding: 15px;
+    margin-top: 25px;
+}
+.knmr{
+    border: none;
+    margin: 50px;
+   
+}
+.know{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.know button{
+    padding: 10px;
+}
+.freq{
+    border: 1px solid #FC8A06;
+    color: #03081F;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 120px;
+    background-color: transparent;
+    margin-left: 20px;
+}
+.what{
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
+}
+
+.howdoes{
+    display: flex;
+    padding: 30px 15px;
+    background-color: white;
+    border-radius: 12px;
+}
+.howwork{
+    flex: 1;
+    justify-content: center;
+    color: #03081F;
+    margin-right: 25px;
+    padding: 20px;
+}
+.howwork h3{
+    text-align: center;
+    padding-top: 15px;
+}
+.hodoes{
+    border: none;
+    background-color: #FC8A06;
+    padding: 10px 15px;
+    border-radius: 120px;
+
+}
+.placetrack{
+    flex: 2;
+    
+}
+.placeortr{
+    display: flex;
+    margin-bottom: 20px;
+}
+.placeortr div{
+    border: none;
+    background-color: #D9D9D9;
+    justify-content: center;
+    margin-right: 10px;
+    border-radius: 12px;
+    padding: 20px;
+}
+.place-order h3, .track-order h3, .get-order h3{
+    text-align: center;
+}
+.place-order p, .track-order p, .get-order p{
+    text-align: center;
+}
+.place-order img, .track-order img, .get-order img{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.simplifies p{
+    text-align: center;
+}
+.no-of{
+    background-color: #FC8A06;
+    border-radius: 12px;
+    padding: 25px;
+    display: flex;
+    margin-top: 50px;
+}
+.reg-ri, .ord-de, .res-pa{
+    padding: 20px;
+    border-right: 1px solid #FAFAFA;
+}
+.no-of div h3{
+    color: #FAFAFA;
+    font-size: 35px;
+    text-align: center;
+}
+.foo-it{
+    padding: 20px;
+}
+
+.orderlegal{
+    background-color: #D9D9D9;
+    margin-top: 50px;
+    padding: 50px;
+    display: flex;
+    
+}
+.order-app{
+    margin-right: 35px;
+}
+.order-app p{
+    margin-top: 20px;
+    color: #000000;
+}
+.get-ex{
+    margin-right: 35px;
+}
+
+.get-ex form{
+    border: 1px solid #00000066;
+    border-radius: 120px;
+    width: 380px;
+    display: flex;
+    margin-top: 20px;
+    
+}
+.get-ex form input{
+    background-color: transparent;
+    border: none;
+    height: 50px;
+    width: 200px;
+    
+    flex: 1;
+}
+.get-ex form input::placeholder{
+    color: #00000066;
+    font-size: 14px;
+    padding-left: 10px;
+}
+.get-ex form button{
+    background-color:#FC8A06;
+    color: #FAFAFA;
+    font-size: 17px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 120px;  
+}
+.soc-icon{
+    display: flex;
+    justify-content: space-between;
+     margin-top: 20px;
+}
+.applay{
+    display: flex;
+    margin-top: 20px;
+}
+.apstore{
+    background-color: #000000;
+    width: 200px;
+    height:61px ;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.legal{
+    margin-right: 35px;
+}
+.legal p, .im-li p{
+   text-decoration: underline;
+   line-height: 43px;
+}
+.copyright{
+    background-color: #03081F;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 30px;
+}
+.priv-pol{
+    display: flex;
+    
+}
+.priv-pol p{
+    margin-right: 30px;
+}
+
+

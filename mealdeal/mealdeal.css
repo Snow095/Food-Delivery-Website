@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg{
+    background-image: url("../home/images/order\ page\ img1.png");
+    height: 280px;
+    width: 1350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.meal{
+    background-color: white;
+    padding: 50px;
+}
+.mealdeal h3{
+    font-size: 24px;
+    color: #03081F;
+}
+.mealdeal h3 img{
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
+.pizza-menu{
+    background-color: #D9D9D999;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 40px;
+  
+}
+.pizza-menu img{
+    width: 113px;
+    height: 113px;
+}
+.pizzamenText{
+    padding: 10px 10px 0 10px;
+    display: flex;
+    border-left: 1px solid #00000066;
+    margin-left: 20px;  
+}
+.hawaiinText{
+    padding: 10px 10px 0 10px;
+    display: flex;
+    border-left: 1px solid #FFFFFF66;
+    margin-left: 20px; 
+}
+
+.pizzamenImg{
+    display: flex;
+    margin-left: 640px;
+    align-items: center;
+}
+.pizzamenImg img{
+    width: 45px;
+    height: 45px;
+    margin-right: 15px;
+    
+}
+.nos{
+    width: 86px;
+    height: 86px;
+    border-radius: 8px;
+    background-color: white;
+    margin-right: 15px;
+}
+.nos p{
+    font-size: 32px;
+    text-align: center;
+    padding: 20px;
+}
+.tot-del{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.total-pay{
+    background-color: #FC8A06CC;
+    border: 1px solid #0000001C;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+}
+.total-pay h4{
+    font-size: 20px;
+    margin-right: 20px;
+}
+.total-pay p{
+    font-size: 36px;
+}
+.next{
+    background-color: #028643;
+    border: 1px solid #0000001C;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: white; 
+    margin-top: 10px;
+    margin-left: 40px;
+    height: 70px;
+    width: 250px;
+}
+.next p{
+   font-size: 24px;
+   margin-left: 50px;
+   text-align: center;
+}
+.take-back{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
