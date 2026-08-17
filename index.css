@@ -1,8 +1,10 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 .fullpage{
     background-color: white;
     padding: 0 50px;
@@ -59,18 +61,18 @@
     font-size: 18px;
     
 }
-.homebtn{
+.homebtn, .browsebtn, .specialbtn, .restbtn, .trackbtn{
+    border: none;
+    color: #000000;
+    background-color: transparent;
+    padding: 10px;
+}
+.homebtn:hover,.browsebtn:hover, .specialbtn:hover, .restbtn:hover, .trackbtn:hover{
     border: none;
     background-color: #FC8A06;
     color: #FAFAFA;
     border-radius: 120px;
     padding: 10px 20px;
-}
-.browsebtn, .specialbtn, .restbtn, .trackbtn{
-    border: none;
-    color: #000000;
-    background-color: transparent;
-    padding: 10px;
 }
 
 .logbtn{
@@ -534,7 +536,6 @@
     height: 560px;
 }
 .orderpers{
-    
     position: absolute;
     bottom: 0;
     top: 100px;
@@ -878,4 +879,4 @@
     margin-right: 30px;
 }
 
-
+ 

@@ -59,18 +59,18 @@ section{
     font-size: 18px;
     
 }
-.restbtn{
+.homebtn, .browsebtn, .specialbtn, .restbtn, .trackbtn{
+    border: none;
+    color: #000000;
+    background-color: transparent;
+    padding: 10px;
+}
+.homebtn:hover,.browsebtn:hover, .specialbtn:hover, .restbtn:hover, .trackbtn:hover{
     border: none;
     background-color: #FC8A06;
     color: #FAFAFA;
     border-radius: 120px;
     padding: 10px 20px;
-}
-.browsebtn, .specialbtn, .homebtn, .trackbtn{
-    border: none;
-    color: #000000;
-    background-color: transparent;
-    padding: 10px;
 }
 
 .logbtn{
@@ -89,7 +89,7 @@ section{
     border-radius: 120px;
 }
 .landpg{
-    background-image: linear-gradient(#E2E2E2E5), url("../home/images/burger\ bgi.png");
+    background-image: linear-gradient(#E2E2E2E5), url("../images/burger\ bgi.png");
     position: relative;
     width:1,528px ;
     height: 477px;
@@ -98,7 +98,7 @@ section{
     border-radius: 12px;
 }
 .girlpizza{
-    background-image: url("../home/images/girlandpizza.png");
+    background-image: url("../images/girlandpizza.png");
     width:581px ;
     height: 361px;
     position: absolute;
@@ -272,7 +272,7 @@ section{
 .orderdis{
     margin-top: 25px;
     background-image:
-    url("../home/images/First\ order\ discount.png");
+    url("../images/First\ order\ discount.png");
     background-size: cover;
     position: relative;
     height: 300px;
@@ -856,7 +856,7 @@ section{
     margin-right: 8px;
 }
 .McDonImage{
-    background-image: url("../home/images/McDonald.png");
+    background-image: url("../images/McDonald.png");
     height: 170px;
     width: 200px;
     background-size: contain; 
@@ -868,31 +868,31 @@ section{
     padding: 10px;
 }
 .papaJImage{
-    background-image: url("../home/images/PapaJohns.png");
+    background-image: url("../images/PapaJohns.png");
     height: 170px;
     width: 200px;
     background-size: contain; 
 }
 .KFCImage{
-    background-image: url("../home/images/KFC.png");
+    background-image: url("../images/KFC.png");
     height: 170px;
     width: 200px;
     background-size: contain; 
 }
 .TexcImage{
-    background-image: url("../home/images/Texas\ Chicken.png");
+    background-image: url("../images/Texas\ Chicken.png");
     height: 170px;
     width: 200px;
     background-size: contain; 
 }
 .BurgKImage{
-    background-image: url("../home/images/Burger\ King.png");
+    background-image: url("../images/Burger\ King.png");
     height: 170px;
     width: 200px;
     background-size: contain; 
 }
 .ShauImage{
-    background-image: url("../home/images/Shaurma\ 1.png");
+    background-image: url("../images/Shaurma\ 1.png");
     height: 170px;
     width: 200px;
     background-size: contain; 
@@ -992,6 +992,5 @@ section{
 .priv-pol p{
     margin-right: 30px;
 }
-
 
 
