@@ -7,7 +7,7 @@
 .bg{
     background-image: url("../images/cusPizza.png");
     height: 280px;
-    width: 1350px;
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -48,7 +48,7 @@
     border: 1px solid #0000004D;
     border-radius: 12px;
     height: 400px;
-    width: 1250px;
+    width: 100%;
     padding: 40px;
 }
 .tot-del{
@@ -97,3 +97,98 @@
     justify-content: right;
 }
 
+/* Small Screens & Mobile Devices (768px and down) */
+@media screen and (max-width: 768px) {
+
+    /* Section Background & Container Padding */
+    .bg {
+        width: 100%;
+        height: 160px;
+    }
+
+    .add {
+        padding: 20px 15px;
+    }
+
+    .add-req h3 {
+        font-size: 16px;
+    }
+
+    .add-req h3 img {
+        width: 20px;
+        height: 20px;
+    }
+
+    /* Option Item Header */
+    .sel-op {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 15px;
+        padding: 10px 0;
+    }
+
+    .sel-op img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .pizzamenText {
+        border-left: none;
+        border-top: 1px solid #00000066;
+        margin-left: 0;
+        margin-top: 10px;
+        padding: 8px 0 0 0;
+        justify-content: center;
+    }
+
+    /* Textarea Box Fixes */
+    .textarea form textarea {
+        width: 100%;
+        height: 180px;
+        padding: 15px;
+        font-size: 14px;
+        box-shadow: 2px 2px 6px #00000033;
+    }
+
+    /* Total Payment & Action Buttons */
+    .tot-del {
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 20px;
+    }
+
+    .total-pay {
+        width: 100%;
+        padding: 8px 12px;
+    }
+
+    .total-pay h4 {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+    .total-pay p {
+        font-size: 18px;
+    }
+
+    .next {
+        width: 100%;
+        height: 45px;
+        margin-left: 0;
+        margin-top: 0;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .next p {
+        font-size: 15px;
+        margin-left: 0;
+    }
+
+    .take-back {
+        justify-content: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+}

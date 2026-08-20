@@ -1,120 +1,270 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 .bg{
+
     background-image: url("../images/order\ page\ img1.png");
+
     height: 280px;
-    width: 1350px;
+
+    width: 100%;
+
     background-size: cover;
+
     background-repeat: no-repeat;
+
 }
-.meal{
-    background-color: white;
-    padding: 50px;
+.meal {
+    background-color: #ffffff;
+    padding: 50px 20px;
+    width: 100%;
 }
-.mealdeal h3{
-    font-size: 24px;
-    color: #03081F;
-}
-.mealdeal h3 img{
-    width: 30px;
-    height: 30px;
-    margin-top: 5px;
-}
-.pizza-menu{
-    background-color: #D9D9D999;
+
+/* ==========================================
+   PIZZA MENU CONTAINER
+   ========================================== */
+.pizza-menu {
+    background-color: rgba(217, 217, 217, 0.6);
     display: flex;
     align-items: center;
+    justify-content: space-between;
     border-radius: 12px;
     padding: 20px;
     margin-top: 40px;
-  
-}
-.pizza-menu img{
-    width: 113px;
-    height: 113px;
-}
-.pizzamenText{
-    padding: 10px 10px 0 10px;
-    display: flex;
-    border-left: 1px solid #00000066;
-    margin-left: 20px;  
-}
-.hawaiinText{
-    padding: 10px 10px 0 10px;
-    display: flex;
-    border-left: 1px solid #FFFFFF66;
-    margin-left: 20px; 
+    width: 100%;
+    gap: 20px;
 }
 
-.pizzamenImg{
-    display: flex;
-    margin-left: 640px;
-    align-items: center;
+.pizza-menu > img {
+    width: 113px;
+    height: 113px;
+    flex-shrink: 0;
+    object-fit: contain;
 }
-.pizzamenImg img{
-    width: 45px;
-    height: 45px;
-    margin-right: 15px;
-    
-}
-.nos{
-    width: 86px;
-    height: 86px;
-    border-radius: 8px;
-    background-color: white;
-    margin-right: 15px;
-}
-.nos p{
-    font-size: 32px;
-    text-align: center;
-    padding: 20px;
-}
-.tot-del{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
-}
-.total-pay{
-    background-color: #FC8A06CC;
-    border: 1px solid #0000001C;
-    border-radius: 8px;
+
+.pizzamenText {
+    padding-left: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 10px;
+    border-left: 1px solid rgba(0, 0, 0, 0.4);
+    flex: 1;
+    font-size: 28px;
+    line-height: 1.3;
+    color: #03081F;
+}
+
+
+.hawaiinText {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid rgba(184, 179, 179, 0.4);
+    flex: 1;
+    font-size: 25px;
+    line-height: 1.3;
     color: white;
 }
-.total-pay h4{
-    font-size: 20px;
-    margin-right: 20px;
-}
-.total-pay p{
-    font-size: 36px;
-}
-.next{
-    background-color: #028643;
-    border: 1px solid #0000001C;
-    border-radius: 8px;
+.pizzamenImg {
     display: flex;
     align-items: center;
-    padding: 10px;
-    color: white; 
-    margin-top: 10px;
-    margin-left: 40px;
+    gap: 15px;
+    /* flex-shrink: 0; */
+}
+
+.pizzamenImg img {
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    object-fit: contain;
+}
+
+.nos {
+    width: 70px;
     height: 70px;
-    width: 250px;
-}
-.next p{
-   font-size: 24px;
-   margin-left: 50px;
-   text-align: center;
-}
-.take-back{
+    border-radius: 8px;
+    background-color: #ffffff;
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+.nos p {
+    font-size: 28px;
+    color: #03081F;
+    font-weight: bold;
+}
+
+/* ==========================================
+   TOTAL & PAYMENTS SECTION
+   ========================================== */
+.tot-del{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-top: 40px;
+
+}
+
+.total-pay{
+
+    background-color: #FC8A06CC;
+
+    border: 1px solid #0000001C;
+
+    border-radius: 8px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 10px;
+
+    color: white;
+
+}
+
+.total-pay h4{
+
+    font-size: 20px;
+
+    margin-right: 20px;
+
+}
+
+.total-pay p{
+
+    font-size: 36px;
+
+}
+
+.next{
+
+    background-color: #028643;
+
+    border: 1px solid #0000001C;
+
+    border-radius: 8px;
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 10px;
+
+    color: white;
+
+    margin-top: 10px;
+
+    margin-left: 40px;
+
+    height: 70px;
+
+    width: 250px;
+
+}
+
+.next p{
+
+   font-size: 24px;
+
+   margin-left: 50px;
+
+   text-align: center;
+
+}
+
+.take-back{
+
+    display: flex;
+
+    align-items: center;
+
     justify-content: right;
+
+}
+/* ==========================================
+   RESPONSIVE MOBILE LAYOUT (<= 768px)
+   ========================================== */
+@media screen and (max-width: 768px) {
+    .meal {
+        padding: 20px 15px;
+    }
+
+    /* Pizza Menu Card Mobile Overrides */
+    .pizza-menu {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px 15px;
+        gap: 15px;
+    }
+
+    .pizzamenText {
+        border-left: none;
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+        padding-left: 0;
+        padding-top: 15px;
+        width: 100%;
+        justify-content: center;
+    }
+    .hawaiinText{
+        border-left: none;
+        border-top: 1px solid rgba(184, 179, 179, 0.4);
+        padding-left: 0;
+        padding-top: 15px;
+        width: 100%;
+        justify-content: center;
+    }
+    .hawaiinText h4{
+        font-size: 24px;
+    }
+    .pizzamenText h4 {
+        font-size: 24px;
+    }
+
+    .pizzamenImg {
+        width: 100%;
+        justify-content: center;
+        margin-top: 5px;
+    }
+
+    .nos {
+        width: 55px;
+        height: 55px;
+    }
+
+    .nos p {
+        font-size: 22px;
+    }
+
+    .pizzamenImg img {
+        width: 38px;
+        height: 38px;
+    }
+
+    /* Total & Next Button Mobile Overrides */
+    .tot-del {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .total-pay,
+    .take-back,
+    .next {
+        width: 100%;
+    }
+
+    .next {
+        height: 60px;
+    }
+
+    .total-pay p {
+        font-size: 28px;
+    }
 }

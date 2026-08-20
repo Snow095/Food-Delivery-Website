@@ -7,7 +7,7 @@
 
 .fullpage{
     background-color: white;
-    padding: 0 50px;
+    padding: 0 40px;
 }
 .location{
     
@@ -93,7 +93,7 @@
 .landpg{
     border-radius: 12px;
     position: relative;
-    width:1,528px ;
+    width:1,500px ;
     height: 610px;
     background-color: #FAFAFA;
 }
@@ -351,10 +351,10 @@
     background-image:
     linear-gradient(rgba(253, 253, 253, 0.719),rgba(1, 4, 43, 0.637), rgba(1, 4, 43, 0.993)),
     url("./images/Burger.png");
-    background-size: contain;
+    background-size: cover;
     position: relative;
-    height: 300px;
-    width: 400px;
+    height: 275px;
+    width: 375px;
     border-radius: 12px;
     margin-right: 20px;  
 }
@@ -391,10 +391,10 @@
     background-image:
     linear-gradient(rgba(253, 253, 253, 0.719),rgba(1, 4, 43, 0.637), rgba(1, 4, 43, 0.993)),
     url("./images/AI\ cafe.png");
-    background-size: contain;
+    background-size: cover;
     position: relative;
-    height: 300px;
-    width: 400px;
+    height: 275px;
+    width: 375px;
     border-radius: 12px;
     margin-right: 20px;
 }
@@ -402,10 +402,10 @@
     background-image:
     linear-gradient(rgba(253, 253, 253, 0.719),rgba(1, 4, 43, 0.637), rgba(1, 4, 43, 0.993)),
     url("./images/Burger.png");
-    background-size: contain;
+    background-size: cover;
     position: relative;
-    height: 300px;
-    width: 400px;
+    height: 275px;
+    width: 375px;
     border-radius: 12px;
     
 }
@@ -421,14 +421,14 @@
 .burgfast, .salad, .pasc, .pizz, .Break, .soup{
     border-radius: 12px;
     background-color: #FAFAFA;
-    margin-right: 8px;
+    margin-right: 15px;
 }
 .burgfastImage{
     
     background-image: url("./images/Burger\ &\ fastfood.png");
-    height: 170px;
-    width: 200px;
-    background-size: contain;
+    height: 160px;
+    width: 180px;
+    background-size: cover;
     
 }
 .burgfastText, .saladText, .pascText, .pizzText, .BreakText, .soupText{
@@ -446,44 +446,44 @@
 .saladImage{
     
     background-image: url("./images/Salad.png");
-    height: 170px;
-    width: 200px;
-    background-size: contain;  
+    height: 160px;
+    width: 180px;
+    background-size: cover;  
 }
 .pascImage{
     background-image: url("./images/Pasta.png");
-    height: 170px;
-    width: 200px;
-    background-size: contain;  
+    height: 160px;
+    width: 180px;
+    background-size: cover;
 }
 .pizzImage{
     background-image: url("./images/Pizza.png");
-    height: 170px;
-    width: 200px;
-    background-size: contain;  
+    height: 160px;
+    width: 180px;
+    background-size: cover; 
 }
 .BreakImage{
     background-image: url("./images/Breakfast.png");
-    height: 170px;
-    width: 200px;
-    background-size: contain;  
+    height: 160px;
+    width: 180px;
+    background-size: cover; 
 }
 .soupImage{
     background-image: url("./images/Soup.png");
-    height: 170px;
-    width: 200px;
-    background-size: contain;  
+    height: 160px;
+    width: 180px;
+    background-size: cover; 
 }
 .McDon, .papaJ, .KFC, .Texc, .BurgK, .Shau{
     border-radius: 12px;
     background-color:#FC8A06;
-    margin-right: 8px;
+    margin-right: 15px;
 }
 .McDonImage{
     background-image: url("./images/McDonald.png");
-    height: 170px;
-    width: 200px;
-    background-size: contain; 
+    height: 160px;
+    width: 180px;
+    background-size: cover;
 }
 .McDonText h2, .papaJText h2, .KFCText h2, .TexcText h2, .BurgKText h2, .ShauText h2{
     color: #FAFAFA;
@@ -493,33 +493,33 @@
 }
 .papaJImage{
     background-image: url("./images/PapaJohns.png");
-    height: 170px;
-    width: 200px;
-    background-size: contain; 
+    height: 160px;
+    width: 180px;
+    background-size: cover; 
 }
 .KFCImage{
     background-image: url("./images/KFC.png");
-    height: 170px;
-    width: 200px;
-    background-size: contain; 
+    height: 160px;
+    width: 180px;
+    background-size: cover; 
 }
 .TexcImage{
     background-image: url("./images/Texas\ Chicken.png");
-    height: 170px;
-    width: 200px;
-    background-size: contain; 
+    height: 160px;
+    width: 180px;
+    background-size: cover;
 }
 .BurgKImage{
     background-image: url("./images/Burger\ King.png");
-    height: 170px;
-    width: 200px;
-    background-size: contain; 
+    height: 160px;
+    width: 180px;
+    background-size: cover; 
 }
 .ShauImage{
     background-image: url("./images/Shaurma\ 1.png");
-    height: 170px;
-    width: 200px;
-    background-size: contain; 
+    height: 160px;
+    width: 180px;
+    background-size: cover; 
 }
 .download{
     
@@ -620,7 +620,6 @@
     background-repeat: no-repeat;
 }
 .earnperks{
-   
     display: flex;
 }
 .earn, .perks{
@@ -632,7 +631,7 @@
     background-size: cover;
     position: relative;
     height: 300px;
-    width: 600px;
+    width: 560px;
     border-radius: 12px;
     margin-right: 40px;  
 }
@@ -679,7 +678,7 @@
     background-size: cover;
     position: relative;
     height: 300px;
-    width: 600px;
+    width: 560px;
     border-radius: 12px;
     
 }
@@ -879,4 +878,249 @@
     margin-right: 30px;
 }
 
- 
+ /* ==========================================
+   MEDIA QUERIES FOR SMALL SCREENS (<= 768px)
+   ========================================== */
+
+@media screen and (max-width: 768px) {
+  
+  /* Reset layout constraints & padding */
+  .fullpage {
+    padding: 0 15px;
+  }
+
+  /* Top Navigation & Basket */
+  .location {
+    height: auto;
+    flex-direction: row;
+    align-items: stretch;
+    padding: 10px 0;
+  }
+
+  .promo {
+    margin-left: 0;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .basket {
+    border-radius: 0 0 12px 12px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .shopB, .items, .GBP, .forward {
+    border-left: none;
+    border-bottom: 1px solid rgba(250, 250, 250, 0.2);
+    padding: 8px;
+  }
+
+  /* Header Controls & Nav Links */
+  .orderlogo {
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .orderlogo img {
+    padding-right: 0;
+  }
+
+  /* Landing Hero Section */
+  .landpg {
+    width: 100%;
+    height: auto;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text1 {
+    position: static;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .p1, .p2 {
+    line-height: 1.5;
+  }
+
+  .h1, .h2 {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+
+  .text1 form {
+    width: 100%;
+    max-width: 320px;
+    margin: 15px auto 0 auto;
+  }
+
+  /* Remove fixed canvas elements for mobile view */
+  .orange, 
+  .spag-div, 
+  .eatpizza, 
+  .order1, 
+  .order2, 
+  .order3 {
+    position: static;
+    width: 100%;
+    height: auto;
+    right: auto;
+    left: auto;
+    top: auto;
+    bottom: auto;
+    margin-top: 15px;
+  }
+
+  .eatpizza img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Exclusive Deals & Food Items */
+  .deals {
+    flex-direction: row;
+    gap: 7px;
+    align-items: flex-start;
+  }
+
+  .restaurantfood {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .chburg, .aicaf, .butbrot {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  /* Grid layouts for Categories & Popular Restaurants */
+  .ordercategories, .popresto {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 15px;
+  }
+
+  .burgfast, .salad, .pasc, .pizz, .Break, .soup,
+  .McDon, .papaJ, .KFC, .Texc, .BurgK, .Shau {
+    margin-right: 0;
+  }
+
+  .burgfastImage, .saladImage, .pascImage, .pizzImage, 
+  .BreakImage, .soupImage, .McDonImage, .papaJImage, 
+  .KFCImage, .TexcImage, .BurgKImage, .ShauImage {
+    width: 100%;
+  }
+
+  /* App Download Section */
+  .download, .downloadbg {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .orderpers {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+
+  .ordering {
+    padding-left: 0;
+    justify-content: center;
+  }
+
+  .ordering h2 {
+    font-size: 36px;
+  }
+
+  .downorder p {
+    padding-left: 0;
+  }
+
+  .smiling1, .smiling2 {
+    display: none; /* Hide background images causing overflow on small screens */
+  }
+
+  .appplay {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0;
+  }
+
+  .appstore {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* Earn Perks Section */
+  .earnperks {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .earnmore, .perksavail {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  /* How it Works / Process Steps */
+  .howdoes {
+    flex-direction: column;
+  }
+
+  .placeortr {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .placeortr div {
+    margin-right: 0;
+  }
+
+  /* Metrics / Numbers Banner */
+  .no-of {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .reg-ri, .ord-de, .res-pa {
+    border-right: none;
+    border-bottom: 1px solid #FAFAFA;
+    padding: 15px 0;
+  }
+
+  /* Footer & Legal Section */
+  .orderlegal {
+    flex-direction: column;
+    gap: 30px;
+    padding: 25px 15px;
+  }
+
+  .order-app, .get-ex, .legal {
+    margin-right: 0;
+  }
+
+  .get-ex form {
+    width: 100%;
+  }
+
+  .copyright {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .priv-pol {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .priv-pol p {
+    margin-right: 0;
+  }
+}
